@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav */
+nav {
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #6C0E23;
+    padding: 0rem 4rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul a {
+    font-weight: 500;
+    color: #FFEAAE;
+    padding-left: 2rem;
+}
+
+nav ul a li.active {
+    font-weight: 700;
+}
+
+/* Official Trailer */
+.ot {
+    min-height: 100vh;
+    background: linear-gradient(#6C0E23, #C42021);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ot h1 {
+    color: #FFEAAE;
+    margin-bottom: 2rem;
+}
+
+.ot iframe {
+    width: 65rem;
+    height: 38rem;
+}
+
+.ot .copyright {
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 3rem;
+}

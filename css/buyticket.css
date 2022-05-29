@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav */
+nav {
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #6C0E23;
+    padding: 0rem 4rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul a {
+    font-weight: 500;
+    color: #FFEAAE;
+    padding-left: 2rem;
+}
+
+nav ul a li.active {
+    font-weight: 700;
+}
+
+/* About */
+.ticket {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#6C0E23, #031D44);
+}
+
+.ticket .content {
+    min-height: 80vh;
+    width: 75rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    padding: 3rem;
+    z-index: 1;
+}
+
+.ticket .content .receipt {
+    position: absolute;
+    top: -2.2rem;
+    left: 2rem;
+    width: 20rem;
+}
+
+/* Left */
+
+.ticket .content .left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5rem;
+}
+
+.ticket .content .left .poster {
+    width: 25rem;
+    z-index: 1;
+}
+
+.ticket .content .left .ticketbg {
+    position: absolute;
+    width: 18rem;
+    top: -3.1rem;
+    right: -6rem;
+    z-index: 0;
+}
+
+.ticket .content .left .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.ticket .content .left .controls .details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.ticket .content .left .total {
+    margin-right: 6rem;
+}
+
+.ticket #remove,
+.ticket #add {
+    width: 1.8rem;
+    cursor: pointer;
+}
+
+.ticket #quantity {
+    margin: 0rem 0.5rem;
+}
+
+.ticket #price {
+    font-weight: 800;
+    margin-left: 1rem;
+}
+
+.ticket .content .left .controls button {
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.4rem;
+    color: #FFEAAE;
+    background-color:#6C0E23;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    padding: 0.5rem 2rem;
+}
+
+/* Right */
+.ticket .content .right label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.ticket .content .right label input,
+.ticket .content .right label select {
+    width: 20rem;
+    font-size: 1rem;
+    font-family: Poppins;
+    font-weight: 500;
+    border: 1px solid #101010;
+    border-radius: 0.35rem;
+    padding: 0.5rem 0rem;
+    padding-left: 0.5rem;
+}
+
+
+
+.ticket .copyright {
+    color: #FFEAAE;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.ticket .castfade {
+    position: absolute;
+    width: 40rem;
+    left: 0;
+    bottom: 0;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/buyticket.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Bully</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="/index.html"><li class="">Home</li></a>
+            <a href="/officialtrailer.html"><li class="">Official Trailer</li></a>
+            <a href="/aboutus.html"><li class="">About Us</li></a>
+        </ul>
+    </nav>
+
+    <section id="ticket" class="ticket">
+        <div class="content">
+            <img class="receipt" src="/asset/receipt.png" alt="">
+            <div class="left">
+                <img class="poster" src="/asset/posterbully.png" alt="">
+                <img class="ticketbg"  src="/asset/ticket.png" alt="">
+                <div class="controls">
+                    <div class="details">
+                        <div class="total">Total</div>
+                        <img id="remove" src="/asset/-.png" alt="">
+                        <div id="quantity">1</div>
+                        <img id="add" src="/asset/+.png" alt="">
+                        <div id="price">Rp 55.000</div>
+                    </div>
+                    <button>Buy Ticket</button>
+                </div>
+            </div>
+            <div class="right">
+                <label for="">
+                    Full Name
+                    <input type="text" placeholder="Full name">
+                </label>
+                <label for="">
+                    Email Address
+                    <input type="email" placeholder="Email address">
+                </label>
+                <label for="">
+                    Phone Number
+                    <input type="text" placeholder="+62">
+                </label>
+                <label for="">
+                    Choose Cinema
+                    <select id="cinema">
+                        <option value="XXI Plaza Senayan">XXI Plaza Senayan</option>
+                        <option value="XXI Senayan City">XXI Senayan City</option>
+                        <option value="XXI Blok M">XXI Blok M</option>
+                        <option value="CGV Pacific Place">CGV Pacific Place</option>
+                    </select>
+                </label>
+                <label for="">
+                    Date
+                    <input type="date">
+                </label>
+                <label for="">
+                    Payment Method
+                    <select id="payment">
+                        <option value="Bank Transfer">Bank Transfer</option>
+                        <option value="Virtual Account">Virtual Account</option>
+                        <option value="Alfamart">Alfamart</option>
+                        <option value="Indomaret">Indomaret</option>
+                        <option value="Gopay">Gopay</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2022 Bully, All Rights Reserved
+        </div>
+        <img class="castfade" src="/asset/castfade.png" alt="">
+    </section>
+</body>
+</html>

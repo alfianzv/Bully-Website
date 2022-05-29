@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav */
+nav {
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #6C0E23;
+    padding: 0rem 4rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul a {
+    font-weight: 500;
+    color: #FFEAAE;
+    padding-left: 2rem;
+}
+
+nav ul a li.active {
+    font-weight: 700;
+}
+
+/* About */
+.about {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#6C0E23, #031D44);
+}
+
+.about .content {
+    min-height: 80vh;
+    width: 60rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    padding: 5rem;
+    z-index: 1;
+}
+
+.about .content .aboutus {
+    position: absolute;
+    top: -1.75rem;
+    right: -6rem;
+    width: 20rem;
+}
+
+.about .content div:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.about .content h1 {
+    font-weight: 600;
+}
+
+.about .copyright {
+    color: #FFEAAE;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about .castfade {
+    position: absolute;
+    width: 40rem;
+    left: 0;
+    bottom: 0;
+}
