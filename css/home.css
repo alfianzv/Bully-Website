@@ -42,7 +42,7 @@ nav ul a li.active {
 .hero {
     position: relative;
     height: 100vh;
-    background-image: url('/asset/herolanding.png');
+    background-image: url("../asset/herolanding.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -71,7 +71,7 @@ nav ul a li.active {
 /* Poster */
 .poster {
     height: 125vh;
-    background-image: url('/asset/posterbg.png');
+    background-image: url("../asset/posterbg.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5rem 5rem;
